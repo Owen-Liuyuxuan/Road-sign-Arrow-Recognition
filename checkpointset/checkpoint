@@ -1,0 +1,2 @@
+model_checkpoint_path: "Conv_with_dropout_in_hidden_layer2.ckpt"
+all_model_checkpoint_paths: "Conv_with_dropout_in_hidden_layer2.ckpt"
