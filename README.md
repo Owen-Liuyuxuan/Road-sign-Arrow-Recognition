@@ -1,7 +1,11 @@
 # Road-sign-Arrow-Recognition
-Complete Version of the mini-project file can be downloaded directly from:
+Complete Version of the mini-project file can be downloaded directly from since files over 25M are not accepted in Github:
 
         https://pan.baidu.com/s/1sl6xGzr#list/path=%2F
+        
+Notice: 
+
+        currently only the 'train.csv' and 'image.rar' are up to date in this Baidu Net Disk. // 11/30/2017
 ## 0. Introduction
 This mini-project aims to identify parts of Hong Kong Road signs, especially the arrows
 
@@ -41,12 +45,20 @@ Teacherset.csv:
     Dataset provided by the lecturers Dr Fung in EE department, HKPU. The dataset consists of 469 100\*100 grayscale images.
     
     Each line in the csv file consists of 10001 number, the first of which is the label the rest is the corresponding image data. 
+
+Teachertest.csv:
+     
+     Another dataset provided by Dr Fung. He originally expects us to train with 'Teacher.csv' and test with 'Teachertest.csv'.
+     
+     In this project, we take both file as final test set.
     
 Test.csv:
 
     The test set created by partner Wu Han Xi exchange from Harbin Institute of Technology using Matlab. 
     
     The test set consists of 155 60\*60 gray-scale images. Each line in the csv file consists of 3601 numbers.    
+    
+    The test set has been considered as cross-validation set for this project.
     
 
 Some Problem with the datasets: 
