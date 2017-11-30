@@ -56,7 +56,7 @@ Train.csv:
 
 Some Problem with the datasets: 
 
-    ①. For *"moving forward", "right turn", "left turn" "uturn ","no stop"*, the label from Wu is 1,2,3,4,5 respectively while the teacherset.csv does not have "no stop" and label the picture as 1,3,2,4.
+    ①. For "moving forward", "right turn", "left turn" "uturn ","no stop", the label from Wu is 1,2,3,4,5 respectively while the teacherset.csv does not have "no stop" and label the picture as 1,3,2,4.
 
     ②. The data from Dr Fung comes from python while data from Wu comes from Matlab. Some rules are different in two software and the ways to read data from them are different.
 
