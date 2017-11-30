@@ -4,6 +4,7 @@ Complete Version can be downloaded directly from:
         https://pan.baidu.com/s/1sl6xGzr#list/path=%2F
 ## 0. Introduction
 This mini-project aims to identify parts of Hong Kong Road signs, especially the arrows
+
 This project successively identify road signs of *"moving forward", "right turn", "left turn" "uturn ","no stop"*, the standard input of these networks is grayscale images of 60\*60
 
 One fully-connected network model and two convolutional neural network model are provided. All of them have achieved more than 90% of accuracy on moderate test sets. There are some differences between this two convolutional models.
