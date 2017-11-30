@@ -1,4 +1,7 @@
 # Road-sign-Arrow-Recognition
+Complete Version can be downloaded directly from:
+
+        https://pan.baidu.com/s/1sl6xGzr#list/path=%2F
 ## 0. Introduction
 This mini-project aims to identify parts of Hong Kong Road signs, especially the arrows
 This project successively identify road signs of *"moving forward", "right turn", "left turn" "uturn ","no stop"*, the standard input of these networks is grayscale images of 60\*60
