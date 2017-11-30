@@ -1,5 +1,5 @@
 # Road-sign-Arrow-Recognition
-Complete Version can be downloaded directly from:
+Complete Version of the mini-project file can be downloaded directly from:
 
         https://pan.baidu.com/s/1sl6xGzr#list/path=%2F
 ## 0. Introduction
@@ -48,11 +48,6 @@ Test.csv:
     
     The test set consists of 155 60\*60 gray-scale images. Each line in the csv file consists of 3601 numbers.    
     
-Train.csv:
-
-    Training set also created by Wu with Matlab consists of 5491 images.
-    
-    The set was created by data augmentation from several hundreds of pictures made in PPT or downloaded from the Internet.
 
 Some Problem with the datasets: 
 
@@ -62,17 +57,28 @@ Some Problem with the datasets:
 
     ③. The project is done in HK, as a result, the "Uturn" is turning to the right, while is turning left in the mainland. All datasets just include "Uturn" in HK version.
 
+image ：
 
-# The following only available on Baidu Net Disk.
+    pictures with names in the form of '#.jpg' that are saved here can be tested with function written in each util.py.
 
 checkpointset:
 
-    Save the checkpoint from Tensorflow
+    Save the checkpoints from Tensorflow. There are three possible model inside. They are not perfect, but at least respectable.
+
+
+# The following only available on Baidu Net Disk.
+
+Train.csv:
+
+    Training set also created by Wu with Matlab, consists of 5491 images.
+    
+    The set was created by data augmentation from several hundreds of pictures made in PPT or downloaded from the Internet.
+
 
 origincheckpointset:
 
     Backup checkpoints that perform well
 
-image ：
+image.rar:
 
-    pictures with names in the form of '#.jpg' that are saved here can be tested with function written in each util.py. The image.rar are original pictures that used to build train.csv and test.csvv
+        The image.rar are original pictures that used to build train.csv and test.csv
