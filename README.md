@@ -7,15 +7,17 @@ Notice:
 
         currently only the 'train.csv' and 'image.rar' are up to date in this Baidu Net Disk. // 11/30/2017
 ## 0. Introduction
-This mini-project aims to identify parts of Hong Kong Road signs, especially the arrows
+This mini-project aims to identify parts of Hong Kong Road signs, especially the arrows.
 
-This project successively identify road signs of *"moving forward", "right turn", "left turn" "uturn ","no stop"*, the standard input of these networks is grayscale images of 60\*60
+This project successively identify road signs of *"moving forward", "right turn", "left turn" "uturn ","no stop"*, the standard input of these networks is grayscale images of 60\*60.
 
 One fully-connected network model and two convolutional neural network model are provided. All of them have achieved more than 90% of accuracy on moderate test sets. There are some differences between this two convolutional models.
 
 The project is based on *python 3 tensorflow Framework*, and has made use of the following libraries:
 
 Numpy, Tensorflow, Matplotlib, scipy, PIL, pandas
+
+Liu Yu Xuan and Wu Han Xi contribute equally in the project.
 
 
 ## 1. Components
@@ -54,7 +56,7 @@ Teachertest.csv:
     
 Test.csv:
 
-    The test set created by partner Wu Han Xi exchange from Harbin Institute of Technology using Matlab. 
+    The test set created using Matlab. 
     
     The test set consists of 155 60\*60 gray-scale images. Each line in the csv file consists of 3601 numbers.    
     
@@ -82,7 +84,7 @@ checkpointset:
 
 Train.csv:
 
-    Training set also created by Wu with Matlab, consists of 5491 images.
+    Training set also created with Matlab, consists of 5491 images.
     
     The set was created by data augmentation from several hundreds of pictures made in PPT or downloaded from the Internet.
 
